@@ -6,9 +6,41 @@
 body {
     background-image: url(assets/imagens/fundo.png);
     background-repeat: repeat-x;
+    background-color: rgb(75, 74, 74);
 }
 
-header ul li a{
-    text-decoration: none;
-    
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 40vh;
+    padding-right: 40vh;
 }
+
+#nav-barra ul{
+    display: inline-flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+
+#nav-barra li{
+    background-color: #b10333;
+    padding: 15px 0;
+}
+
+#nav-barra a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.container > div {
+    background-color: blue;
+}
+
+.item1{
+    padding: 20px;
+    grid-column: 1/6;
+}
+
+
