@@ -1,3 +1,17 @@
+
+/* Hexadecimais utilizados no projeto:
+#e50040
+#b10333
+#fff
+#69001d
+#de003e
+#f5f5f5
+#f3f3f3
+#294c71
+#000
+#f9f9f9
+#a1a1a1 */
+
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +23,23 @@ body {
     background-color: rgb(75, 74, 74);
 }
 
+#img-brasil{
+    float: right;
+    position: absolute;
+    right: 660px;
+    top:10px
+}
+
 .container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding-left: 40vh;
-    padding-right: 40vh;
+    padding-left: 68vh;
+    padding-right: 68vh;
+    position: relative;
+}
+
+a:hover, a:visited{
+    background-color: #e50040;
 }
 
 #nav-barra ul{
@@ -34,9 +60,7 @@ body {
     padding: 1rem;
 }
 
-.container > div {
-    background-color: blue;
-}
+
 
 .item1{
     padding: 20px;
