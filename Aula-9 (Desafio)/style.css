@@ -26,16 +26,29 @@ body {
 #img-brasil{
     float: right;
     position: absolute;
-    right: 660px;
+    right: 640px;
     top:10px
 }
 
 .container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding-left: 68vh;
-    padding-right: 68vh;
+    padding-left: 55vh;
+    padding-right: 55vh;
     position: relative;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.container2 > div{
+    background-color: blue;
+}
+
+.item2{
+    grid-column: 2/6;
 }
 
 a:hover, a:visited{
